@@ -1471,7 +1471,7 @@ contract XcomRewards is LPTokenWrapper, IRewardDistributionRecipient {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
-    IERC20 public xcom = IERC20(0x4539D1DBE278d30c38C6Ac622ce6E8BFFA286323);
+    IERC20 public xcom = IERC20(0xb1A9a1585A553f2170fC68D402a278Af5D186c79);
 
     uint256 public constant DURATION = 30 days;
     uint256 public starttime = 1615204800;
